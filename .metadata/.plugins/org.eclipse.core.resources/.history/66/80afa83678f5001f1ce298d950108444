@@ -1,0 +1,52 @@
+package com.lanchonete;
+
+public class Cozinheiro {
+	
+	public void adicionarLancheNoBalcao() {
+		System.out.println("Adicionando lanche Natural Hamburguer no Balcao");
+	}
+	
+	public void adicionarSucoNoBalcao() {
+		System.out.println("Adicionando suco no balcao");
+	}
+	
+	public void adicionarComboNoBanco() {
+		adicionarLancheNoBalcao();
+		adicionarSucoNoBalcao();
+	}
+	
+	public void prepararLacnhe() {
+		System.out.println("Preparando lanche tipo hamburguer");
+	}
+	
+	public void prepararVitamina() {
+		
+	}
+	
+	public void fritarIngedientesLanche() {
+		System.out.println("Fritando a Carne e o ovo para o Hamburguer");
+	}
+	
+	public void pedirPraTrocarGas(Atendente meuAmigo) {
+		meuAmigo.trocarGas();
+	}
+	
+	public void pedirPraTrocarGas(Almoxarife meuAmigo) {
+		meuAmigo.trocarGas();
+	}
+	
+	public void pedirIngredientes(Almoxarife almoxarife) {
+		almoxarife.entregarIngredientes();
+	}
+	
+	
+	public void lavarIngerdiente() {
+		System.out.println("Lavando ingredientes");
+	}
+	
+	
+	public void baterVitaminaLiquidificador() {
+		System.out.println("Batendo vitamina no liquidificador");
+	}
+
+}

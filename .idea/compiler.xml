@@ -6,10 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Interfaces" />
+        <module name="AulaGenerics" />
         <module name="meeuPrimeiroProjeto" />
         <module name="DesafioControleFluxo" />
         <module name="controle-candidatos" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exercicios" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

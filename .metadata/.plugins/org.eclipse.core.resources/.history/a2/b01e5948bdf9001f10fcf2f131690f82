@@ -1,0 +1,22 @@
+package AulaHeranca;
+
+public class Telegram {
+	
+	public void enviarMensagem() {
+		validarConexaoInternet();
+		System.out.println("Enviando Mensagem pelo Telegram");
+		salvarHistoricoMensagem();
+	}
+	
+	public void receberMensagem() {
+		System.out.println("Recebendo Mensagem pelo Telegram");
+	}
+	
+	private void validarConexaoInternet() {
+		System.out.println("Validando se essta conectado a Internet");
+	}
+	
+	private void salvarHistoricoMensagem() {
+		System.out.println("Salvando histórico da mensagem");
+	}
+}

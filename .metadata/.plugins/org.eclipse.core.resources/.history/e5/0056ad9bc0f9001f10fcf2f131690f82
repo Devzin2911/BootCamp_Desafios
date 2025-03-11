@@ -1,0 +1,22 @@
+package AulaHeranca;
+
+public class servicoMensagemInstantanea {
+	
+	public void enviarMensagem() {
+		validarConexaoInternet();
+		System.out.println("Enviando Mensagem");
+		salvarHistoricoMensagem();
+	}
+	
+	public void receberMensagem() {
+		System.out.println("Recebendo Mensagem");
+	}
+	
+	private void validarConexaoInternet() {
+		System.out.println("Validando se essta conectado a Internet");
+	}
+	
+	private void salvarHistoricoMensagem() {
+		System.out.println("Salvando histórico da mensagem");
+	}
+}

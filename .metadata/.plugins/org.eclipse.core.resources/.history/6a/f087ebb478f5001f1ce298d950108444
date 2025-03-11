@@ -1,0 +1,66 @@
+package com.lanchonete;
+
+import com.lanchonete.areaCliente.Cliente;
+
+public class Estabelecimento {
+	
+	public static void main(String[] args) {
+		
+		// Seção de Implementação dos métodos da classe Cozinheiro
+		Cozinheiro cozinheiro = new Cozinheiro();
+		
+		cozinheiro.lavarIngrediente();
+		cozinheiro.baterVitaminaLiquidificador();
+		cozinheiro.prepararLacnhe();
+		cozinheiro.prepararVitamina();
+		cozinheiro.prepararVitamina();
+		
+		
+		cozinheiro.adicionarSucoNoBalcao();
+		cozinheiro.adicionarLancheNoBalcao();
+		cozinheiro.adicionarComboNoBanco();
+		
+		
+		// Seção de Implementação dos métodos da classe Almoxarife
+		
+		Almoxarife almoxarife = new Almoxarife();
+		
+		almoxarife.controlarEntrada();
+		almoxarife.controlarSaida();
+		
+		almoxarife.entregarIngredientes();
+		almoxarife.trocarGas();
+		
+		
+		
+		// Seção de Implementação dos métodos da classe Atendente
+		
+		
+		Atendente atendente = new Atendente();
+		
+		atendente.pegarLancheCozinha();
+		atendente.receberPagamento();
+		atendente.servindoMesa();
+		
+		
+		atendente.trocarGas();
+		
+		
+		
+		// Seção de Implementação dos métodos da classe Cliente
+		
+		Cliente cliente = new Cliente();
+		cliente.escolherLanche();
+		cliente.fazerPedido();
+		cliente.pagarConta();
+		
+		
+		cliente.pegarPedidoBalcao();
+		
+		
+		cliente.consultarSaldoAplicativo();
+		
+		cozinheiro.pedirPraTrocarGas(atendente);
+		cozinheiro.pedirPraTrocarGas(almoxarife);
+	}
+}

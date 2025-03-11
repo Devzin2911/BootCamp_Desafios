@@ -1,0 +1,6 @@
+package AulaHeranca;
+
+public class Telegram extends servicoMensagemInstantanea {
+	
+	
+}

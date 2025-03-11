@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.lanchonete.Atendente"/>
+    <fullyQualifiedTypeName name="com.lanchonete.Cozinheiro"/>
+    <fullyQualifiedTypeName name="AulaHeranca.MSNMessenger"/>
+    <fullyQualifiedTypeName name="AulaHeranca.FacebookMessenger"/>
+    <fullyQualifiedTypeName name="AulaHeranca.Telegram"/>
+</qualifiedTypeNameHistroy>

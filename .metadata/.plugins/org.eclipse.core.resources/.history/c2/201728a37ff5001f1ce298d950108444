@@ -1,0 +1,16 @@
+package sistemaCadastro;
+
+public class sistemaCadastro {
+	
+	public static void main(String[] args) {
+		Pessoa gabriel = new Pessoa("21264312345", "Gabriel");
+		
+		
+		gabriel.setEndereco("ESTRADA SANTA EUGENIA");
+		
+		
+		System.out.println(gabriel.getNome() + " -- "
+				+ gabriel.getCpf());
+	}
+
+}

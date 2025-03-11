@@ -1,0 +1,23 @@
+package AulaHeranca;
+
+public class FacebookMessenger {
+	
+	public void enviarMensagem() {
+		validarConexaoInternet();
+		System.out.println("Enviando Mensagem pelo Facebook messenger");
+		salvarHistoricoMensagem();
+	}
+	
+	public void receberMensagem() {
+		System.out.println("Recebendo Mensagem pelo Facebook messenger");
+	}
+	
+	private void validarConexaoInternet() {
+		System.out.println("Validando se essta conectado a Internet");
+	}
+	
+	private void salvarHistoricoMensagem() {
+		System.out.println("Salvando histórico da mensagem");
+	}
+
+}
