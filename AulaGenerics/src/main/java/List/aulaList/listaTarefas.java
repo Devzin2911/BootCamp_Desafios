@@ -1,4 +1,4 @@
-package aulaList;
+package List.aulaList;
 
 import java.util.ArrayList;
 import java.util.List;

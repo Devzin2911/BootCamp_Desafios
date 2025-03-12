@@ -1,4 +1,4 @@
-package AulaPesquisaList;
+package List.aulaList.AulaPesquisaList;
 
 public class Livro {
 

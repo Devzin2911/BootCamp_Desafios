@@ -1,4 +1,4 @@
-package AulaPesquisaList;
+package List.aulaList.AulaPesquisaList;
 
 import java.util.ArrayList;
 import java.util.List;
